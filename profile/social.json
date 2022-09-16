@@ -1,0 +1,12 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/jamie-spyker-9ba2a7119/"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:jrspyker@test.com"
+        }
+    ]
+}
