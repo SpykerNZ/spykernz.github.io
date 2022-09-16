@@ -2,15 +2,11 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
-        },
-        {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "href": "https://www.linkedin.com/in/jamie-spyker-9ba2a7119/"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:jrspyker@test.com"
         }
     ]
 }

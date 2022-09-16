@@ -14,7 +14,7 @@ function Education(props) {
   const { header } = props;
   const [data, setData] = useState(null);
   const [width, setWidth] = useState('50vw');
-  const [mode, setMode] = useState('VERTICAL_ALTERNATING');
+  const [mode, setMode] = useState('VERTICAL');
 
   useEffect(() => {
     fetch(endpoints.education, {
@@ -51,7 +51,7 @@ function Education(props) {
                 allowDynamicUpdate
                 useReadMore={false}
                 items={data.education}
-                cardHeight={250}
+                cardHeight={150}
                 mode={mode}
                 theme={{
                   primary: theme.accentColor,
@@ -59,6 +59,7 @@ function Education(props) {
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
                   titleColor: theme.chronoTheme.titleColor,
+                  titleColorActive: theme.chronoTheme.titleColor,
                 }}
               >
                 <div className="chrono-icons">

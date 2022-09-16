@@ -1,19 +1,16 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "title": "2016 - 2017",
+            "cardTitle": "Master of Engineering, Mechatronics Thesis",
+            "cardSubtitle":"University of Canterbury",
+            "cardDetailedText":"- Completed research towards autonomous UAV control with a focus on low cost sensors.\n\n Developed simulation software to test theoretical concepts.\n\n- Designed and built a functional UAV prototype utilizing proximity sensors which tracks vertical surfaces to provide real world experimental data"
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "2012-2015",
+            "cardTitle": "Bachelor of Engineering (Mechatronics), First Class Honors",
+            "cardSubtitle":"University of Canterbury",
+            "cardDetailedText": "Key papers taken include:\n- Robotics\n- Computer Vision\n- Machine Learning\n- Embedded Systems\n - Controls"
         }
     ]
 }
