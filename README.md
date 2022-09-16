@@ -351,8 +351,8 @@ It has 2 keys, *logo* and *sections*.
         {
             "title": "Software Engineer",
             "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
+            "description": "Full-time",
+            "detailedDescription": [
                 "Integrated **2** new product.",
                 "Worked on adding **def** to **bcd**. Improved speed by 50%."
             ],
@@ -361,8 +361,8 @@ It has 2 keys, *logo* and *sections*.
         {
             "title": "Software Engineer",
             "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
+            "description": "Internship",
+            "detailedDescription": [
                 "Worked on abc."
             ],
             "dateText": "01/20XX – 05/20XX"
@@ -370,8 +370,8 @@ It has 2 keys, *logo* and *sections*.
         {
             "title": "App Developer",
             "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
+            "description": "Freelance",
+            "detailedDescription": [
                 "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
                 "Done bcd work."
             ],
@@ -386,8 +386,8 @@ It has 2 keys, *logo* and *sections*.
 | experiences | array containing work experiences of a person | 
 | experiences.title | role or designation title |
 | experiences.subtitle | company or organization name. `optional` field |
-| experiences.workType | type of work experience. example - internship, freelance, full-time. `optional` field |
-| experiences.workDescription | string array to highlight specific points related to that work experiece. `markdown` supported |
+| experiences.description | type of work experience. example - internship, freelance, full-time. `optional` field |
+| experiences.detailedDescription | string array to highlight specific points related to that work experiece. `markdown` supported |
 | experiences.dateText | date range text during which particular work experience was pursued. |
 
 ### (8) Projects Section

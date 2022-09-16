@@ -71,16 +71,16 @@ function Experience(props) {
                         <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
                           {item.subtitle}
                         </h4>
-                        {item.workType && (
+                        {item.description && (
                         <h5 style={styles.inlineChild}>
                     &nbsp;·
                           {' '}
-                          {item.workType}
+                          {item.description}
                         </h5>
                         )}
                       </div>
                       <ul style={styles.ulStyle}>
-                        {item.workDescription.map((point) => (
+                        {item.detailedDescription.map((point) => (
                           <div key={point}>
                             <li>
                               <ReactMarkdown

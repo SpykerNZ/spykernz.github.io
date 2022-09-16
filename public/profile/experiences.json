@@ -3,8 +3,8 @@
         {
             "title": "Mechatronics Engineer",
             "subtitle": "Onfarm Solutions",
-            "workType": "Full-time",
-            "workDescription": [
+            "description": "Full-time",
+            "detailedDescription": [
                 "Organized and maintained software across all company products. Refactored codebases improving structure & readability. Solved outstanding product bugs & issues. Implemented proper revision control practices.",
                 "Architected and implemented complex PLC programs utilizing modern programming techniques. Designed and built user-friendly HMI layouts. Delivered multiple programs for the business that are now in commercial use.",
                 "Developed bespoke real-time sensor algorithms. This included sensor selection, on-site data collection, algorithm design, functional testing and final system programming. These were successfully implemented into new products.",
@@ -16,8 +16,8 @@
         {
             "title": "Contractor",
             "subtitle": "Mimeo Industrial",
-            "workType": "Part-time",
-            "workDescription": [
+            "description": "Part-time",
+            "detailedDescription": [
                 "Assisted in a remote control 6-axis robot project. Developed basic machine vision, robot communications and user interface. Resulted in a successful prototype system that could be demoed allowing for additional funding to be secured."
             ],
             "dateText": "Apr 2021 – Jul 2021"
@@ -25,8 +25,8 @@
         {
             "title": "R&D Engineer",
             "subtitle": "Scott Technology",
-            "workType": "Full-time",
-            "workDescription": [
+            "description": "Full-time",
+            "detailedDescription": [
                 "Involved in R&D projects from initial conception to final design. Contributed to the development of complex prototype systems involving robot programming, vision algorithms, 6-axis robots, PLCs, user interfaces and device communications.",
                 "Developed business cases including market analysis, scheduling and budgeting. Wrote ongoing project reports, translating outcomes to stakeholders. Had proposals accepted by external customers to provide R&D for their business"
             ],

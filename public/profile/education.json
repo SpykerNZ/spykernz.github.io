@@ -1,16 +1,19 @@
 {
     "education":[
         {
-            "title": "2016 - 2017",
-            "cardTitle": "Master of Engineering, Mechatronics Thesis",
-            "cardSubtitle":"University of Canterbury",
-            "cardDetailedText":"- Completed research towards autonomous UAV control with a focus on low cost sensors.\n\n Developed simulation software to test theoretical concepts.\n\n- Designed and built a functional UAV prototype utilizing proximity sensors which tracks vertical surfaces to provide real world experimental data"
+            "title": "Master of Engineering",
+            "subtitle": "Thesis",
+            "description":"University of Canterbury",
+            "detailedDescription": ["Completed research towards autonomous UAV control with a focus on low cost sensors.","Developed simulation software to test theoretical concepts.", "Designed and built a functional UAV prototype utilizing proximity sensors which tracks vertical surfaces to provide real world experimental data"],
+            "dateText": "2015 – 2016"
         },
         {
-            "title": "2012-2015",
-            "cardTitle": "Bachelor of Engineering (Mechatronics), First Class Honors",
-            "cardSubtitle":"University of Canterbury",
-            "cardDetailedText": "Key papers taken include:\n- Robotics\n- Computer Vision\n- Machine Learning\n- Embedded Systems\n - Controls"
+            "title": "Bachelor of Engineering, First Class Honors",
+            "subtitle": "Mechatronics",
+            "description":"University of Canterbury",
+            "detailedDescription": ["Robotics", "Computer Vision", "Machine Learning",  "Embedded Systems", "Controls"],
+            "dateText": "2012 – 2015"
         }
     ]
 }
+
