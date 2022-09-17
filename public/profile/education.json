@@ -2,9 +2,9 @@
     "education":[
         {
             "title": "Master of Engineering",
-            "subtitle": "Thesis",
+            "subtitle": "Masters Thesis",
             "description":"University of Canterbury",
-            "detailedDescription": ["Completed research towards autonomous UAV control with a focus on low cost sensors.","Developed simulation software to test theoretical concepts.", "Designed and built a functional UAV prototype utilizing proximity sensors which tracks vertical surfaces to provide real world experimental data"],
+            "detailedDescription": ["Completed research towards autonomous UAV control with a focus on low cost sensors.","Developed simulation software to test theoretical concepts.", "Designed and built a functional UAV prototype utilizing proximity sensors which tracks vertical surfaces"],
             "dateText": "2015 – 2016"
         },
         {

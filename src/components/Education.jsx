@@ -81,17 +81,15 @@ function Education(props) {
                       </div>
                       <ul style={styles.ulStyle}>
                         {item.detailedDescription.map((point) => (
-                          <div key={point}>
-                            <li>
-                              <ReactMarkdown
-                                children={point}
-                                components={{
-                                  p: 'span',
-                                }}
-                              />
-                            </li>
-                            <br />
-                          </div>
+                          <li style={{ padding: 3 }}>
+                            <ReactMarkdown
+                              children={point}
+                              components={{
+                                p: 'span',
+                                padding: 0,
+                              }}
+                            />
+                          </li>
                         ))}
                       </ul>
                     </TimelineItem>

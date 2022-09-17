@@ -15,17 +15,16 @@
                 }
             ],
             "tags" : [
-                "Research",
                 "PLC Programming",
                 "HMI Design",
                 "Algorithm Development",
-                "International Comissioning"
+                "Comissioning"
             ]
         },
         {
             "image" : "images/projects/stepover/stepover_spray.webp",
             "title": "Teatwand Stepover",
-            "bodyText": "- Inline teatspraying system, which accurately sprays cows udders as they walk over.\n - Controlled by custom PCB with simple keypad controls \n - Utilizes reliable and robust tracking algorithms.  \n - Online monitoring support with Azure IoT",
+            "bodyText": "- Inline teatspraying system, which accurately sprays cows udders as they walk over.\n - Low-cost custom PCB control system.\n - Controlled using electronic keypad \n - Utilizes reliable and robust tracking algorithms.  \n - Online monitoring support with Azure IoT",
             "links": [
                 {
                     "text": "Video",
@@ -37,7 +36,6 @@
                 }
             ],
             "tags" : [
-                "Research",
                 "Embedded System Programming",
                 "IoT Integration",
                 "Algorithm Development"
@@ -46,7 +44,7 @@
         {
             "image" : "images/projects/chicken/chicken_prototype.jpg",
             "title": "Automated Chicken Trussing",
-            "bodyText": " - Applying elastic trussing bands onto chickens on a fast-moving conveyor\n - Optimized cycle time of under 5 seconds per bird.\n - Controlled using KUKA robotics \n - Integrated string tying machine",
+            "bodyText": " - Applying elastic trussing bands onto chickens\n - Cycle time of under 5 seconds per bird.\n - Realtime conveyor tracking \n - KUKA Robot and Controller \n - Integrated string tying machine",
             "links": [
                 {
                     "text": "Video",
@@ -59,6 +57,7 @@
             ],
             "tags" : [
                 "6-Axis Robot",
+                "Path Planning",
                 "Electrial Design",
                 "Programming"
             ]

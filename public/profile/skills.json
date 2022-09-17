@@ -33,6 +33,10 @@
             "title": "Hardware",
             "items" : [
                 {
+                    "icon": "images/skills/codesys.png",
+                    "title": "Codesys"
+                },
+                {
                     "icon": "images/skills/microcontroller.png",
                     "title": "Embedded Systems"
                 },
@@ -65,10 +69,6 @@
         {
             "title" : "Tools & Platforms",
             "items": [
-                {
-                    "icon": "images/skills/codesys.png",
-                    "title": "Codesys"
-                },
                 {
                     "icon": "images/skills/visualstudio.png",
                     "title": "Visual Studio"
