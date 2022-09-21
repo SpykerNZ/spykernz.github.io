@@ -19,6 +19,18 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
   },
+  button: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 32,
+    paddingHorizontal: 32,
+    borderRadius: 20,
+    elevation: 3,
+    fontSize: '1.5em',
+    marginTop: 30,
+    width: 260,
+    height: 50,
+  },
 };
 
 function Home() {
@@ -32,6 +44,18 @@ function Home() {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
+
+  const onButtonClick = () => {
+    fetch('cv/JamieSpyker2022.pdf').then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        const alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'cv/JamieSpyker2022.pdf';
+        alink.click();
+      });
+    });
+  };
 
   return data ? (
     <Fade>
@@ -48,6 +72,7 @@ function Home() {
           />
         </div>
         <Social />
+        <button style={styles.button} type="button" onClick={onButtonClick} onKeyDown={onButtonClick}>Download Resume</button>
       </div>
     </Fade>
   ) : <FallbackSpinner />;
