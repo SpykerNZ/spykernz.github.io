@@ -14,9 +14,9 @@ const styles = {
 };
 
 const Projects = (props) => {
-  const { header } = props;
+  let { header } = props;
   const [data, setData] = useState(null);
-
+  header = 'Notable Projects';
   useEffect(() => {
     fetch(endpoints.projects, {
       method: 'GET',
