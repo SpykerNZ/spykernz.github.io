@@ -46,12 +46,12 @@ function Home() {
   }, []);
 
   const onButtonClick = () => {
-    fetch('cv/JamieSpyker2022.pdf').then((response) => {
+    fetch('cv/JamieSpyker2023.pdf').then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         const alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = 'cv/JamieSpyker2022.pdf';
+        alink.download = 'cv/JamieSpyker2023.pdf';
         alink.click();
       });
     });
