@@ -1,11 +1,15 @@
 {
     "social": [
         {
-            "network" : "linkedin",
+            "network": "linkedin",
             "href": "https://www.linkedin.com/in/jamie-spyker-9ba2a7119/"
         },
         {
-            "network" : "email",
+            "network": "github",
+            "href": "https://github.com/SpykerNZ"
+        },
+        {
+            "network": "email",
             "href": "mailto:jrspyker@gmail.com"
         }
     ]
