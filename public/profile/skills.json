@@ -1,16 +1,12 @@
 {
     "intro": "I love to learn new things and experiment with different technologies.\nHere are some of the major languages, hardware, tools and platforms I have worked with:",
-    "skills": [{
-     
+    "skills": [
+        {
             "title": "Languages",
-            "items" : [
+            "items": [
                 {
                     "icon": "images/skills/iec.png",
                     "title": "IEC 61131-3"
-                },
-                {
-                    "icon": "images/skills/ladder.png",
-                    "title": "Ladder Logic"
                 },
                 {
                     "icon": "images/skills/python.png",
@@ -28,10 +24,11 @@
                     "icon": "images/skills/matlab.png",
                     "title": "MATLAB"
                 }
-        ]},
+            ]
+        },
         {
             "title": "Hardware",
-            "items" : [
+            "items": [
                 {
                     "icon": "images/skills/codesys.png",
                     "title": "Codesys"
@@ -67,7 +64,7 @@
             ]
         },
         {
-            "title" : "Tools & Platforms",
+            "title": "Tools & Platforms",
             "items": [
                 {
                     "icon": "images/skills/visualstudio.png",
@@ -90,10 +87,6 @@
                     "title": "openCV"
                 },
                 {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
-                },
-                {
                     "icon": "images/skills/sql.png",
                     "title": "SQL"
                 },
@@ -102,5 +95,6 @@
                     "title": "Microsoft Office"
                 }
             ]
-    }
-]}
+        }
+    ]
+}
